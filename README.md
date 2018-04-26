@@ -17,6 +17,4 @@ Extra points for:
 3. Clean, SOLID, well-tested and well-documented code.
 
 Requirements:
-Visual Studio 2017 or Visual Studio Code
-Node.js
-SQL Server
+Visual Studio 2017 or Visual Studio Code, Node.js, SQL Server
