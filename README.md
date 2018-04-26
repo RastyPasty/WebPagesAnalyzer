@@ -24,3 +24,7 @@ To run this application pull code from git and open it in Visual Studio 2017 or 
 
 Solution is using secure cryptography algorythms which are recommended by MS. 
 With increasing quantity of database rows application will slow down because of comparing big quantity hash keys each time. Adding simple cache service may solve this issue.
+Moving to asynchronous and multithreaded application is also a good idea. 
+
+## Timing
+Challenge took about 15 hours to complete.
