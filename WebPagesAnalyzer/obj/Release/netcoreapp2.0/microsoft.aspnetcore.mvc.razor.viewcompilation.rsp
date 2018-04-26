@@ -1,0 +1,9 @@
+C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebPagesAnalyzer
+--content-root=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer
+--file=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer\Views\Home\Index.cshtml
+--file=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer\Views\Shared\Error.cshtml
+--file=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer\Views\Shared\_Layout.cshtml
+--file=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer\Views\_ViewImports.cshtml
+--file=C:\Users\Nedash\source\repos\WebPagesAnalyzer\WebPagesAnalyzer\Views\_ViewStart.cshtml
