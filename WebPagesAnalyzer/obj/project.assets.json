@@ -13240,11 +13240,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\WebPagesAnalyzer\\WebPagesAnalyzer.csproj",
+      "projectUniqueName": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\WebPagesAnalyzer\\WebPagesAnalyzer.csproj",
       "projectName": "WebPagesAnalyzer",
-      "projectPath": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\WebPagesAnalyzer\\WebPagesAnalyzer.csproj",
+      "projectPath": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\WebPagesAnalyzer\\WebPagesAnalyzer.csproj",
       "packagesPath": "C:\\Users\\Nedash\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\WebPagesAnalyzer\\obj\\",
+      "outputPath": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\WebPagesAnalyzer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13263,8 +13263,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\ORM\\ORM.csproj": {
-              "projectPath": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\ORM\\ORM.csproj"
+            "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\ORM\\ORM.csproj": {
+              "projectPath": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\ORM\\ORM.csproj"
             }
           }
         }

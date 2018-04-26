@@ -2,11 +2,12 @@ using Data;
 using ORM;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using WebPagesAnalyzer.Repositories.Interfaces;
 
 namespace WebPagesAnalyzer.Services
 {
-    public class WordRepository: IWordRepository
+    public sealed class WordRepository: IWordRepository
     {
         private WebPagesAnalyzerContext _context;
 

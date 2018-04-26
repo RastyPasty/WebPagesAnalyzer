@@ -8,6 +8,7 @@ namespace WebPagesAnalyzer
     public static class Consts
     {
         public static int SaltLenght = 10;
+        public static int TopAmmount = 100;
         public static string SecretKey = "v8Qv19DMnB";
     }
 }

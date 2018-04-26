@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Data
 {
-    public class Word
+    public sealed class Word
     {
         [StringLength(100)]
         public string Id { get; set; }

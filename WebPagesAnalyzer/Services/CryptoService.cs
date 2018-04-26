@@ -9,7 +9,7 @@ using WebPagesAnalyzer.Services.Interfaces;
 
 namespace WebPagesAnalyzer.Services
 {
-    public class CryptoService : ICryptoService
+    public sealed class CryptoService : ICryptoService
     {
         private const int Keysize = 128;
 

@@ -1,38 +1,36 @@
 using Data;
 using System.Collections.Generic;
+using System.Linq;
 using WebPagesAnalyzer.Repositories.Interfaces;
 
 namespace WebPagesAnalyzer.Services.Interfaces
 {
-    public class PageHandlerService : IPageHandlerService
+    public sealed class PageHandlerService : IPageHandlerService
     {
         private readonly ICryptoService _cryptoService;
         private readonly IFetcherService _fetcherService;
-        private readonly IParserService _parserService;
         private readonly IWordRepository _wordRepository;
 
         public PageHandlerService(ICryptoService cryptoService,
             IFetcherService fetcherService,
-            IParserService parserService,
             IWordRepository wordRepository)
         {
             _cryptoService = cryptoService;
             _fetcherService = fetcherService;
-            _parserService = parserService;
             _wordRepository = wordRepository;
         }
 
         public bool Process(string url)
         {
             var pageContent = _fetcherService.Get(url);
-            var top100 = _parserService.Parse(pageContent);
+            var topWords = GetTextFrequentWords(pageContent);
 
             var newWords = new List<Word>();
             var updateWords = new List<Word>();
 
             var existingWords = _wordRepository.GetAllIds();
 
-            foreach (var obj in top100)
+            foreach (var obj in topWords)
             {
                 var needInsert = true;
 
@@ -66,6 +64,17 @@ namespace WebPagesAnalyzer.Services.Interfaces
             _wordRepository.PushData(newWords, updateWords);
 
             return true;
+        }
+
+        private Dictionary<string, int> GetTextFrequentWords(string text)
+        {
+            var data = text.Split(' ');
+            return data.Where(x => x.Length > 2)
+                .GroupBy(x => x)
+                .Select(x => new { Key = x.Key, Value = x.Count() })
+                .OrderByDescending(x => x.Value)
+                .Take(Consts.TopAmmount)
+                .ToDictionary(x => x.Key, x => x.Value);
         }
     }
 }

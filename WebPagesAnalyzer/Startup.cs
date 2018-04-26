@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
@@ -40,7 +36,6 @@ namespace WebPagesAnalyzer
             services.AddTransient<IPageHandlerService, PageHandlerService>();
             services.AddTransient<ICryptoService, CryptoService>();
             services.AddTransient<IFetcherService, FetcherService>();
-            services.AddTransient<IParserService, ParserService>();
             services.AddTransient<IWordRepository, WordRepository>();
             
             services.AddMvc()

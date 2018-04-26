@@ -6,7 +6,7 @@ using WebPagesAnalyzer.Services.Interfaces;
 
 namespace WebPagesAnalyzer.Services
 {
-    public class FetcherService : IFetcherService
+    public sealed class FetcherService : IFetcherService
 
     {
         /// <summary>

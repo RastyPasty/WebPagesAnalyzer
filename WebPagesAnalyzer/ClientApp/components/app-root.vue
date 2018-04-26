@@ -9,8 +9,8 @@
             </div>
         </header>
         <v-app light>
-        <section style="padding-top: 90px">
-            <div class="col-sm-2">
+        <section class="main-section">
+            <div class="col-sm-2 tall-sidebar">
                 <nav-menu params="route: route"></nav-menu>
             </div>
             <div class="col-sm-9" style="padding-top: 40px;">
@@ -56,4 +56,23 @@ export default {
     .section-head .toolbar {
 box-shadow: none;
 }
+
+    .main-section {
+        padding-top: 90px;
+        height: 100%;
+    }
+
+    .tall-sidebar {
+        height: 100%;
+        min-width: 300px;
+    }
+
+    .tall-sidebar .toolbar__content {
+        background-color: white;
+    }
+
+    .application--wrap {
+        margin-left: -15px;
+    }
+
 </style>

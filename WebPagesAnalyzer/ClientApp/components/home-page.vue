@@ -76,4 +76,8 @@
     .url-form {
         margin-bottom: 50px;
     }
+
+    .url-form .btn {
+        padding-top: 0px;
+    }
 </style>
