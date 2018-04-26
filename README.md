@@ -16,5 +16,11 @@ Extra points for:
 2. Elegant front end layout.
 3. Clean, SOLID, well-tested and well-documented code.
 
-Requirements:
-Visual Studio 2017 or Visual Studio Code, Node.js, SQL Server
+## Install
+
+To run this application pull code from git and open it in Visual Studio 2017 or Visual Studio Code. You also need installed SQL server and Node.js on your computer.
+
+## Encrypted data
+
+Solution is using secure cryptography algorythms which are recommended by MS. 
+With increasing quantity of database rows application will slow down because of comparing big quantity hash keys each time. Adding simple cache service may solve this issue.
