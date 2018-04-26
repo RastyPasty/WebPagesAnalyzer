@@ -20,3 +20,14 @@ C:\Users\Nedash\source\repos\root\WebPagesAnalyzer\ORM\obj\Debug\netcoreapp2.0\O
 C:\Users\Nedash\source\repos\root\WebPagesAnalyzer\ORM\obj\Debug\netcoreapp2.0\ORM.AssemblyInfo.cs
 C:\Users\Nedash\source\repos\root\WebPagesAnalyzer\ORM\obj\Debug\netcoreapp2.0\ORM.dll
 C:\Users\Nedash\source\repos\root\WebPagesAnalyzer\ORM\obj\Debug\netcoreapp2.0\ORM.pdb
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\bin\Debug\netcoreapp2.0\ORM.deps.json
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\bin\Debug\netcoreapp2.0\ORM.dll
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\bin\Debug\netcoreapp2.0\ORM.pdb
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.csprojResolveAssemblyReference.cache
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.csproj.CoreCompileInputs.cache
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.AssemblyInfoInputs.cache
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.AssemblyInfo.cs
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.dll
+C:\Users\Nedash\Source\Repos\WebPagesAnalyzer2\ORM\obj\Debug\netcoreapp2.0\ORM.pdb

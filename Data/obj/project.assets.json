@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Nedash\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nedash\\source\\repos\\root\\WebPagesAnalyzer\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Nedash\\source\\repos\\WebPagesAnalyzer2\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
