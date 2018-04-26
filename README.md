@@ -15,3 +15,8 @@ Extra points for:
 1. In README, describe the best way to safely store and manage the keys.
 2. Elegant front end layout.
 3. Clean, SOLID, well-tested and well-documented code.
+
+Requirements:
+Visual Studio 2017 or Visual Studio Code
+Node.js
+SQL Server
